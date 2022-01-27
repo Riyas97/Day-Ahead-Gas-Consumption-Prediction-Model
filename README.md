@@ -65,5 +65,5 @@ provide various services to residents such as sending households their respectiv
 consumption forecast, from our chosen model. Some screenshots of the telegram bot can be seen below.
 
 
-![](./imgs/ug-4.JPG)
-![](./imgs/ug-5.JPG)
+![](./imgs/ug-4.jpg)
+![](./imgs/ug-5.jpg)
