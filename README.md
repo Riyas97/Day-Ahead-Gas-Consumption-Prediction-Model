@@ -4,7 +4,8 @@
 This is a data science project. In this project, a dataset collected by an actual IoT system (see
 description below) on smart gas meter readings was given and the task was to use the dataset to build a forecasting model to predict household gas consumption. In total, several forecasting models were built using linear regression, neural networks & LSTM models. In addition, a telegram bot was also built from scratch to provides various services to residents such as sending households their respective gas consumption forecast from the models that were built. The telegram bot was deployed in real-life using Heroku.
 
-This project is split into three parts, namely `Q1_Code`, `Q2_Code` & `Q3_Code` and for more details on each respective part, go to the respective folder and view the jupiter file inside the folder. 
+
+This project is split into three parts, namely `Q1_Code`, `Q2_Code` & `Q3_Code` and for more details on each respective part, go to the respective folder and view the jupiter file inside the folder. Code for the telegram bot is located under `Telegram Bot_Code` folder.
 
 ## Details about the provided dataset
 
@@ -38,3 +39,27 @@ In this first part, the first task was to evaluate how many houses were included
 the highest correlation.
 
 ## Part 2 (Code and additional details are inside the `Q2_Code` folder)
+For this part, we had to build a linear regression and support vector regression models to forecast the hourly readings in the future (next
+hour). We had to generate two plots namely time series plot of the actual and predicted hourly
+meter readings and scatter plot of actual vs predicted meter readings (along with
+the line showing how good the fit is).
+
+## Part 3 (Code and additional details are inside the `Q3_Code` folder)
+For this part, we built better models to predict a household's future gas consumption based on that
+household's past consumption. We first broke down the problem into two subtasks.
+
+The first subtask was finding a good model that could accurately forecast household gas
+consumption. We already had a forecast model that we created in question 2. However, we were
+not totally delighted with its accuracy performance. So we came up with two ideas. The first idea
+was adding more useful attributes to the dataset with the belief that this would improve the
+accuracy of the model. More specifically, we added some weather attributes to the dataset,
+created a new linear regression and neural network model. There was not much improvement to
+the accuracy. Our second idea was to create a Long Short-Term Memory (LSTM) network model. There was noticeable increase in accuracy. 
+
+The second subtask was to create a tool that can retrieve the gas forecast from our chosen
+model and provide this forecast to the respective households. We didn't wanted to simply stop
+at building a good forecast model and wanted to take a step further to demonstate what a gas
+provider can then do with the gas forecast model that can benefit both the gas provider and the
+households. So, we have created a telegram bot from scratch, just for this project, that can
+provide various services to residents such as sending households their respective gas
+consumption forecast, from our chosen model. 
