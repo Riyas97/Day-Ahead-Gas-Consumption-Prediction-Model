@@ -5,7 +5,7 @@ In this project, a dataset collected by an actual IoT system (see
 description below) on smart gas meter readings was given and the task was to use the dataset to build a forecasting model to predict household gas consumption. Along the way, there were some interesting questions that 
 had to be answered. 
 
-This project is split into three parts and for more details on each respective part, go to the respective folder and view the jupiter file inside the folder. 
+This project is split into three parts, namely `Q1_Code`, `Q2_Code` & `Q3_Code` and for more details on each respective part, go to the respective folder and view the jupiter file inside the folder. 
 
 ## Details about the provided dataset
 
@@ -27,3 +27,4 @@ natural gas passes through the meter. Data from a six month interval (1 Oct 2015
 The timestamp provides the date as well as the the hour and minute values when each reading
 was taken. Each meter has an unique identifier (MeterID). Recall that the meter readings
 are cumulative and not generated at periodic intervals.
+
