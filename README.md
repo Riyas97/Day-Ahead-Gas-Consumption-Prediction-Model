@@ -5,7 +5,7 @@ This is a data science project. In this project, a dataset collected by an actua
 description below) on smart gas meter readings was given and the task was to use the dataset to build a forecasting model to predict household gas consumption. In total, several forecasting models were built using linear regression, neural networks & LSTM models. In addition, a telegram bot was also built from scratch to provides various services to residents such as sending households their respective gas consumption forecast from the models that were built. The telegram bot was deployed in real-life using Heroku.
 
 
-This project is split into three parts, namely `Q1_Code`, `Q2_Code` & `Q3_Code` and for more details on each respective part, go to the respective folder and view the jupiter file inside the folder. Code for the telegram bot is located under `Telegram Bot_Code` folder.
+This project is split into three parts, namely `Q1_Code`, `Q2_Code` & `Q3_Code` and for more details on each respective part, go to the respective folder and view the jupiter file inside the folder. Code for the telegram bot is located under `Telegram Bot_Code` folder. Some screenshots of the telegram bot can be seen below.
 
 ## Details about the provided dataset
 
@@ -62,4 +62,8 @@ at building a good forecast model and wanted to take a step further to demonstat
 provider can then do with the gas forecast model that can benefit both the gas provider and the
 households. So, we have created a telegram bot from scratch, just for this project, that can
 provide various services to residents such as sending households their respective gas
-consumption forecast, from our chosen model. 
+consumption forecast, from our chosen model. Some screenshots of the telegram bot can be seen below.
+
+
+![](./imgs/ug-4.JPG)
+![](./imgs/ug-5.JPG)
